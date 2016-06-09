@@ -1,0 +1,36 @@
+#include <stdlib.h>
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+struct complex
+{
+ float  feet  , inches;
+       };
+
+int main()
+{struct complex a,b,c ;
+    cout<< "Enter the value for 1st Distance  ";
+    cout<< ".\n" ;
+    cout << "Enter Feet 1 = ";
+    cin>> a.feet ;
+    cout<< ".\n" ;
+    cout << "Enter Inches 1 = ";
+    cin>> a.inches ;
+    cout<< ".\n" ;
+    cout<< "Enter the value for 2nd Distance  ";
+    cout<< ".\n" ;
+    cout << "Enter Feet 2 = ";
+    cin>> b.feet ;
+    cout<< ".\n" ;
+    cout << "Enter inches 2 = ";
+    cin>> b.inches ;
+    cout<< ".\n" ;
+    c.feet = a.feet + b.feet;
+    c.inches = a.inches + b.inches ;
+    cout << "sum of complex number is " << c.feet<<" ' "<< c.inches<<" '' ";
+    cout<< ".\n" ;
+    system ("PAUSE");
+    return 0;
+    
+}
